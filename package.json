@@ -1,0 +1,40 @@
+{
+  "name": "wugqy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode development",
+    "start": "webpack-dev-server --config webpack.config.js --mode development --open",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@types/styled-components": "^5.1.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "html-webpack-plugin": "^4.3.0",
+    "img-loader": "^3.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.1.4",
+    "styled-components": "^5.1.0",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6"
+  }
+}
